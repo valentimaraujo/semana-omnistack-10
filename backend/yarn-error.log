@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add exprees
+
+PATH: 
+  C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;C:\Users\Valente\AppData\Roaming\npm\node_modules\sequelize-cli\lib;C:\EvoDev\libs\php-7.1-Win32-VC14-x64;C:\ProgramData\ComposerSetup\bin;C:\Users\Valente\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Valente\.windows-build-tools\python27\;C:\Users\Valente\Anaconda3;C:\Users\Valente\Anaconda3\Library\mingw-w64\bin;C:\Users\Valente\Anaconda3\Library\usr\bin;C:\Users\Valente\Anaconda3\Library\bin;C:\Users\Valente\Anaconda3\Scripts;C:\Users\Valente\AppData\Local\Microsoft\WindowsApps;C:\Users\Valente\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.1\bin;;C:\Users\Valente\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Valente\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exprees: Not found
+      at Request.params.callback [as _callback] (C:\Users\Valente\AppData\Roaming\nvm\v12.13.1\node_modules\yarn\lib\cli.js:66947:18)
+      at Request.self.callback (C:\Users\Valente\AppData\Roaming\nvm\v12.13.1\node_modules\yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (C:\Users\Valente\AppData\Roaming\nvm\v12.13.1\node_modules\yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (C:\Users\Valente\AppData\Roaming\nvm\v12.13.1\node_modules\yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "semana-omnistack-10",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
